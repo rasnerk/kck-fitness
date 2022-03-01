@@ -1,0 +1,30 @@
+.info {
+    width: 100%;
+    text-align: center;
+}
+
+.info .heading {
+    margin: 0;
+    padding: 1rem;
+}
+
+.info .stripe {
+    background-color: #648282;
+    color: white;
+}
+
+.info .stripe-green {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 2.5rem;
+    background-color: #c1f0cd;
+}
+
+.info .stripe-green p {
+    width: 50%;
+}
+
+.info .meet {
+    background-color: #2BA84A;
+}

@@ -1,0 +1,26 @@
+.navbar-links{
+    width: 65%;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 99;
+}
+
+.navbar-links ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-links ul li {
+    padding: 2rem;
+    font-size: x-large;
+    border-bottom: 2.5px solid #2d3a3a;
+}
+
+.navbar-links ul li:hover {
+    cursor: pointer;
+    border-bottom: 2.5px solid #2BA84A;
+    transform: translateY(-10px);
+    transition: 0.4s;
+}

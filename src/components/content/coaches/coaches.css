@@ -1,0 +1,22 @@
+.coaches {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #c1f0cd;
+    padding-bottom: 10rem;
+    padding-top: 5rem;
+    /* padding: 10rem; */
+}
+
+.coach {
+    /* margin: 4rem; */
+    background-color: #2d3a3a;
+    width: 20%;
+    height: 30rem;
+}
+
+.coach h2 {
+    text-align: center;
+    color: white;
+}
