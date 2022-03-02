@@ -1,5 +1,5 @@
 .navbar-links{
-    width: 65%;
+    width: 62%;
     padding: 1rem;
     align-items: center;
     display: flex;
@@ -16,6 +16,7 @@
     padding: 2rem;
     font-size: x-large;
     border-bottom: 2.5px solid #2d3a3a;
+    transition: 0.5s;
 }
 
 .navbar-links ul li:hover {

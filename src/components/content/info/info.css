@@ -4,13 +4,42 @@
 }
 
 .info .heading {
+    font-family: 'Varela Round', sans-serif;
     margin: 0;
     padding: 1rem;
 }
 
 .info .stripe {
-    background-color: #648282;
     color: white;
+    text-shadow: 3px 3px #040F0F;
+    border-bottom: 1.5px solid #040F0F;
+    /* border-top: 1.5px solid #040F0F; */
+    background-color: #4f6464;
+    font-size: 2em;
+    /* Option 1 */
+    /* background-color: #648282; */
+
+    /* Option 2 */
+    /* background-color: #2BA84A; */
+}
+
+.info .quote {
+    font-family: 'Varela Round', sans-serif;
+    /* Option 2 */
+    /* background-color: #c1f0cd; */
+    margin: 0;
+    padding: 1rem;
+    /* color: #2BA84A; */
+    color: black;
+    /* color: white; */
+    text-shadow: 2px 2px #2BA84A;
+    font-size: 2.5em;
+}
+
+.info .quote:nth-child(2){
+    color: black;
+    text-shadow: 2px 2px #2BA84A;
+    padding-bottom: 4rem;
 }
 
 .info .stripe-green {
@@ -18,13 +47,18 @@
     justify-content: center;
     margin: 0;
     padding: 2.5rem;
-    background-color: #c1f0cd;
+    /* Option 1 */
+    /* background-color: #c1f0cd; */
+
+    /* Option 2 */
+    /* background-color: #648282; */
+    color: white;
+    text-shadow: 1px 1px #283333;
 }
 
 .info .stripe-green p {
-    width: 50%;
-}
-
-.info .meet {
-    background-color: #2BA84A;
+    width: 40vw;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
 }

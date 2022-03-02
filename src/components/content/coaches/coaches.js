@@ -5,6 +5,7 @@ function Coaches() {
       <div className="coaches">
           <div className='coach'>
               <h2>Kane</h2>
+              <img src='kane.png' alt='Kane at the Gym' width={"100%"} height={"100%"}></img>
           </div>
           <div className='coach'>
               <h2>Cody</h2>

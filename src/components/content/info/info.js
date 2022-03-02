@@ -3,8 +3,8 @@ import './info.css';
 function Info() {
   return (
       <div className="info">
-          <h1 className='stripe heading'>Fitness is not meant to be difficult...</h1>
-          <h1 className='stripe heading'>So let's make it easy together!</h1>
+          <h1 className='quote'>Fitness is not meant to be difficult...</h1>
+          <h1 className='quote'>So let's make it easy together!</h1>
           <h2 className='stripe heading'>Why KCK Fitness?</h2>
           <div className='stripe-green'>
             <p>
@@ -26,7 +26,7 @@ function Info() {
               change lives, and see what our clients are saying about us! 
             </p>
           </div>
-          <h2 className='stripe heading'>Meet the coaches!</h2>
+          {/* <h2 className='stripe heading'>Meet the coaches!</h2> */}
       </div>
   );
 }

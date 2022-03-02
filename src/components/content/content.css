@@ -4,4 +4,9 @@
     justify-content: center;
     align-items: center;
     /* padding: 1rem; */
+    
+    background: rgb(37,142,63);
+    background: linear-gradient(0deg, rgba(37,142,63,1) 0%, rgba(113,218,139,1) 35%, rgba(214,245,222,1) 100%);
+    /* background: rgb(37,142,63); */
+    /* background: linear-gradient(0deg, rgba(37,142,63,1) 0%, rgba(133,224,156,1) 35%, rgba(234,250,238,1) 100%); */
 }

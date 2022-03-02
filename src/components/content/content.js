@@ -7,8 +7,9 @@ function Content() {
   return (
       <div className="content">
           <Logo />
-          <Info />
           <Coaches />
+          <Info />
+          {/* <Coaches /> */}
       </div>
   );
 }

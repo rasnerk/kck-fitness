@@ -3,20 +3,25 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-    background-color: #c1f0cd;
+    /* background-color: #c1f0cd; */
     padding-bottom: 10rem;
     padding-top: 5rem;
     /* padding: 10rem; */
 }
 
 .coach {
-    /* margin: 4rem; */
     background-color: #2d3a3a;
     width: 20%;
     height: 30rem;
 }
 
 .coach h2 {
+    font-family: 'Varela Round', sans-serif;
     text-align: center;
+    text-shadow: 3px 3px #040F0F;
     color: white;
+}
+
+.coach img {
+    box-shadow: 25px 50px 50px #2d3a3a;
 }
