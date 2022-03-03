@@ -28,8 +28,10 @@
 }
 
 .testimonial .before-after div {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0.5em;
-    width: 50%;
+    width: 20em;
     border: 1px solid red;
 }
 

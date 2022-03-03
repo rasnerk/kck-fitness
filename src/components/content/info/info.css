@@ -73,3 +73,9 @@
     text-decoration: none;
     color: #00ff40;
 }
+
+@media screen and (max-width: 480px) {
+    .info .stripe-green p {
+        width: 90vw; 
+    }
+  }
