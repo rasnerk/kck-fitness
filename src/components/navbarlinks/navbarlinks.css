@@ -19,6 +19,11 @@
     transition: 0.5s;
 }
 
+.navbar-links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar-links ul li:hover {
     cursor: pointer;
     border-bottom: 2.5px solid #2BA84A;

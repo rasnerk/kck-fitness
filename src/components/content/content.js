@@ -1,4 +1,5 @@
 import './content.css';
+import React from 'react';
 import Logo from './logo/logo';
 import Info from './info/info';
 import Coaches from './coaches/coaches';

@@ -13,6 +13,7 @@
     background-color: #2d3a3a;
     width: 20%;
     height: 30rem;
+    border-radius: 1em;
 }
 
 .coach h2 {
@@ -24,4 +25,5 @@
 
 .coach img {
     box-shadow: 25px 50px 50px #2d3a3a;
+    border-radius: 0 0 1em 1em;
 }
