@@ -1,4 +1,56 @@
 .footer {
-    height: 175px;
+    display: flex;
     background-color: #2d3a3a;
+    justify-content: space-evenly;
+    padding: 5em;
+}
+
+.f-section {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: #597373;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    color: white;
+    border-radius: 1em;
+}
+
+.f-section h2 {
+    text-shadow: 1.5px 1.5px #040F0F;
+}
+
+.f-section-child {
+    padding: 0.5em;
+    font-size: 1.1em;
+}
+
+.f-section-child:nth-child(2) {
+    border-top: 0.1em solid white;
+    padding-top: 1em;
+}
+
+.f-section-child span {
+    margin: 0.5em;
+}
+
+.infographic {
+    border-bottom: 1px solid #597373;
+}
+
+.infographic:hover {
+    color: #00ff40;
+    cursor: pointer;
+    border-bottom: 1px solid #2BA84A;
+}
+
+.clip {
+    border-bottom: 1px solid #597373;
+}
+
+.clip:hover {
+    color: #00ff40;
+    cursor: pointer;
+    border-bottom: 1px solid #2BA84A;
 }

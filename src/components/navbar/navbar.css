@@ -5,7 +5,8 @@
     width: 100%;
     background-color: #2d3a3a;
     color: white;
-    height: 175px;
+    /* height: 175px; */
+    height: 11.25em;
     border-bottom: 0.5px solid white;
 }
 
