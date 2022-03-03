@@ -22,7 +22,7 @@ function Info() {
             <p>
               We only take on a limited number of clients so we can give 100% commitment to each and everyones unique goals.
               In most cases we don't know that we are the right fit for you, until discussing your goals, and reasoning for
-              wanting to make a lifestyle change! Check out the <a href='#'>Testimonials</a> section to see how we have helped
+              wanting to make a lifestyle change! Check out the <a href='/testimonials'>Testimonials</a> section to see how we have helped
               change lives, and see what our clients are saying about us! 
             </p>
           </div>

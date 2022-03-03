@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 100%;
     /* background-color: #c1f0cd; */
     padding-bottom: 10rem;
@@ -10,9 +11,12 @@
 }
 
 .coach {
+    display: flex;
+    flex-direction: column;
     background-color: #2d3a3a;
-    width: 20%;
+    /* width: 20%; */
     height: 30rem;
+    margin: 2.5em;
     border-radius: 1em;
 }
 
