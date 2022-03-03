@@ -3,12 +3,13 @@
     background-color: #2d3a3a;
     justify-content: space-evenly;
     padding: 5em;
+    flex-wrap: wrap;
 }
 
 .f-section {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 40%;
     background-color: #597373;
     padding: 1em;
     margin: 1em;
@@ -54,3 +55,9 @@
     cursor: pointer;
     border-bottom: 1px solid #2BA84A;
 }
+
+@media screen and (max-width: 750px) {
+    .f-section {
+        width: 90vw; 
+    }
+  }

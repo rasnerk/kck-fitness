@@ -75,7 +75,7 @@
     color: #00ff40;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 750px) {
     .info .stripe-green p {
         width: 90vw; 
     }
