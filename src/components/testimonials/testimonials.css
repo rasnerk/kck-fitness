@@ -3,9 +3,12 @@
     padding: 2.5em;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    background: rgb(214,245,220);
+    background: radial-gradient(circle, rgba(214,245,220,1) 0%, rgba(184,199,199,1) 50%, rgba(79,100,100,1) 100%);
 }
 
 .testimonial {
+    background-color: white;
     padding: 1em;
     display: flex;
     flex-direction: column;

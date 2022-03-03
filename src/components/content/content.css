@@ -4,9 +4,10 @@
     justify-content: center;
     align-items: center;
     /* padding: 1rem; */
-   
-    background: rgb(79,100,100);
-    background: linear-gradient(0deg, rgba(79,100,100,1) 0%, rgba(184,199,199,1) 35%, rgba(214,245,220,1) 100%);
+    background: rgb(214,245,220);
+    background: radial-gradient(circle, rgba(214,245,220,1) 0%, rgba(184,199,199,1) 50%, rgba(79,100,100,1) 100%);
+    /* background: rgb(79,100,100); */
+    /* background: linear-gradient(0deg, rgba(79,100,100,1) 0%, rgba(184,199,199,1) 35%, rgba(214,245,220,1) 100%); */
     /* background: rgb(133,224,156); */
     /* background: linear-gradient(0deg, rgba(133,224,156,1) 0%, rgba(194,239,205,1) 35%, rgba(235,250,238,1) 100%); */
 }
