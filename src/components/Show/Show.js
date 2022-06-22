@@ -7,7 +7,7 @@ const Show = () => {
 
     const children = <>
         <h1 style={{borderBottom: "1px solid black", margin: "1em 0"}}>Keifer's Physique Competition</h1>
-        {showInfo.map(info => <Section info={info} /> )}
+        {showInfo.map( (info,i) => <Section key={i} info={info} /> )}
         <h1 style={{borderBottom: "1px solid black", margin: "1em 0"}}>The Complete Transformation</h1>
         <div className='sec-1'>
             <div className='im'>
