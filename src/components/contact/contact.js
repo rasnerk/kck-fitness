@@ -1,18 +1,17 @@
-import './contact.css';
+import Default from '../Default/Default';
+import Form from './Form/Form';
 
-function Contact() {
-    return (
-        <div className="contact">
-            <div className='sec-1'>
-                <div></div>
-                <div></div>
-            </div>
-            <div className='sec-1'>
-                <div></div>
-                <div></div>
-            </div>
+const Contact = () => {
+    
+    const children = <>
+        <div className='d-flex justify-content-center'>
+            <Form />
         </div>
+    </>
+
+    return (
+        <Default children={children} />
     );
-  }
+}
   
-  export default Contact;
+export default Contact;

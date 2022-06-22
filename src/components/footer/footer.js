@@ -1,16 +1,14 @@
-import './footer.css';
-import Infographics from './infographics/infographics';
-import Socials from './socials/socials';
-import Clips from './clips/clips';
+import './Footer.css';
+import Graphics from './Graphics';
+import Socials from './Socials';
 
-function Footer() {
+const Footer = () => {
   return (
-      <footer className='footer'>
-        <Infographics />
-        <Socials />
-        <Clips />
-      </footer>
-  );
+    <footer className='footer'>
+      <Graphics />
+      <Socials />
+    </footer>
+  )
 }
 
 export default Footer;

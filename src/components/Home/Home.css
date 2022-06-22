@@ -1,0 +1,103 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(214,245,220);
+    background: radial-gradient(circle, rgba(214,245,220,1) 0%, rgba(184,199,199,1) 50%, rgba(79,100,100,1) 100%);
+}
+
+.coaches {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 10rem;
+}
+
+.coach {
+    display: flex;
+    flex-direction: column;
+    background-color: #2d3a3a;
+    height: 30rem;
+    margin: 2.5em;
+    padding-bottom: 2em;
+    border-radius: 1em;
+}
+
+.coach h2 {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px #040F0F;
+    color: white;
+}
+
+.coach img {
+    box-shadow: 1em 1em 2.5em #2d3a3a;
+    border-radius: 0 0 1em 1em;
+}
+
+.info {
+    width: 100%;
+    text-align: center;
+}
+
+.info .heading {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 1rem;
+}
+
+.info .stripe {
+    color: white;
+    text-shadow: 3px 3px #040F0F;
+    border-bottom: 0.1em solid #2BA84A;
+    background-color: #2d3a3a;
+    font-size: 2em;
+}
+
+.info .quote {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 1rem;
+    color: white;
+    text-shadow: 2px 2px #2d3a3a;
+    font-size: 2.5em;
+}
+
+.info .quote:nth-child(2){
+    color: white;
+    text-shadow: 2px 2px #2d3a3a;
+    padding-bottom: 4rem;
+}
+
+.info .stripe-green {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 2.5rem;
+    color: white;
+    text-shadow: 1px 1px #283333;
+}
+
+.info .stripe-green p {
+    padding: 1rem;
+    border-radius: 1em;
+    width: 40vw;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25em;
+    line-height: 1.5;
+    background-color: rgba(45, 58, 58, 0.6)
+}
+
+.info .stripe-green p a {
+    text-decoration: none;
+    color: #00ff40;
+}
+
+@media screen and (max-width: 750px) {
+    .info .stripe-green p {
+        width: 90vw; 
+    }
+  }

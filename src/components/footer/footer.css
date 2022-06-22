@@ -4,13 +4,16 @@
     justify-content: space-evenly;
     padding: 5em;
     flex-wrap: wrap;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 
 .f-section {
     display: flex;
     flex-direction: column;
     width: 40%;
-    background-color: #597373;
+    /* background-color: #597373; */
+    background-color: rgba(99, 131, 131, 0.5);
+    /* background-color: rgba(45, 58, 58, 1); */
     padding: 1em;
     margin: 1em;
     text-align: center;
@@ -23,6 +26,9 @@
 }
 
 .f-section-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0.5em;
     font-size: 1.1em;
 }
@@ -37,7 +43,7 @@
 }
 
 .infographic {
-    border-bottom: 1px solid #597373;
+    border-bottom: 1px solid rgba(99, 131, 131, 0.5);
 }
 
 .infographic:hover {
@@ -47,7 +53,7 @@
 }
 
 .clip {
-    border-bottom: 1px solid #597373;
+    border-bottom: 1px solid rgba(99, 131, 131, 0.5);;
 }
 
 .clip:hover {

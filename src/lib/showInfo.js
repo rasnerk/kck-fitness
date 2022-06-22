@@ -1,0 +1,4 @@
+export const showInfo = [
+    { src: "imgs/keifer-stage.jpg", alt: "Keifer on Stage", class: "sec-1", text: "In April of 2019, Keifer did a physique competition in Oshkosh, Wisconsin. Coming in 3rd place, with a lot of lessons learned. Perhaps the most important of those being that you should not be a slave to your diet. Which is exactly how most people feel! This is why we tailor our clients diet's to fit their lifestyle." },
+    { src: "imgs/kfw.jpg", alt: "Keifer Show Ready", class: "sec-1 flex-row-reverse", text: '"After 10 long months of a very strict diet, countless hours in the gym, I couldn\'t be more thankful for the experience and amazing journey with some great friends and family"' }
+]
