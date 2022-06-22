@@ -10,7 +10,7 @@ const Infographics = () => {
         location.state.graphic ? setGraphic(location.state.graphic) : setGraphic(null);
     },[location])
 
-    const children = graphic && <img src={graphic} alt='Infographic' />
+    const children = graphic && <img src={graphic} alt='Infographic' style={{maxWidth: "100%"}} />
 
     return (
         <Default children={children} />
