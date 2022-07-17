@@ -2,7 +2,7 @@
 
 This project was created for a small online health & fitness business.
 
-You can view the project here: [KCK Fitness](http://kckfitness.com)
+You can view the project here: [KCK Fitness](https://kckfitness.com)
 
 ## Technologies/Packages used:
     - React
